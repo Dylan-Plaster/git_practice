@@ -1,0 +1,46 @@
+Terminal Exercise:
+Part 1:
+1. mkdir first
+2. cd first
+3. touch person.txt
+4. mv person.txt another.txt
+5. cp another.txt copy.txt
+6. rm copy.txt
+7. cp -r first second
+8. rm -rf second
+
+Part 2:
+1. The man command brings up additional information on the command you give it.
+to navigate, space or f advances one page, d or control d advances half a page
+b or control b goes back a page, and u or control u goes back half a page.
+
+2. The '-l' flag lists files with more details than ls does, and the 
+'-a' tag lists all files and folders in the current directory,
+including hidden ones.
+
+3. 'alt+left/right' jumps between words in the terminal
+
+4. 'control+e' jumps to the end of the line in the terminal.
+
+5. 'control+a' jumps to the beginning of the line in the terminal.
+
+6. select the end of the word and press 'alt+delete' to delete a word
+
+7. The terminal is the window on the coumputer you type into, the shell is
+the program which processes the commands typed into the terminal.
+
+8. An absolute path is the complete path to the location of the file or
+folder in question. Absolute path can be used to get to any folder/file
+from any place, whereas a relative path is only relative to the current location.
+The absolute path starts from the root.
+
+9. A relative path starts at your current location instead of the root.
+This can be used to access files and folders within the current directory
+and nested directories.
+
+10. A flag adds additional information to a command to tell the terminal/shell
+exactly what we want to be returned. I have used the '-a' and '-l' flags
+with the ls command, and the '-r' and '-f' flags with the rm command.
+
+11. the '-r' flag will remove folders and go through each folder and 
+file and remove them, and '-f' will force the removal of these elements.

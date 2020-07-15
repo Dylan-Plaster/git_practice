@@ -1,0 +1,12 @@
+Branching exercise:
+Part 1:
+1. git checkout -b <name of branch> creates a new branch
+2. a fast forward merge is when there are no commits on the original/master
+branch while the new branch is being worked on.
+3. git checkout <name of branch> changes to another branch
+4. git branch -d <name of branch> deletes a merged branch, and 
+git branch -D <name of branch> deletes a branch regardless of whether 
+it has been merged or not.
+5. merge conflicts happen when there are changes to the same file or folder
+on the master branch and the new branch that have been committed. git 
+cannot determine which of the changes is intended to be in the merged branch.
